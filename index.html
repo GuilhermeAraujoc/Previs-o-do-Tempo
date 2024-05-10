@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js"></script>
+    <title>Previsão do Tempo</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o nome da cidade" />
+        <button onclick="cliqueiNoBotao()">
+          <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" />
+        </button>
+        <div class="caixa-media">
+          <h2 class="cidade">Tempo em Rio de Janeiro</h2>
+          <p class="temp">28°C</p>
+          <img class="icone" src="https://openweathermap.org/img/wn/04n.png" />
+          <p class="umidade">Umidade: 70%</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="footer_content">
+          <div id="footer_contacts">
+              <h1> &#169 slz </h1>
+              <p>My Social Networks</p>
+
+              <div id="footer_social_media">
+                  <a href="https://www.linkedin.com/in/guilherme-araujodev/" target="_blank" class="footer-link" id="linkedin">
+                      <i class="fa-brands fa-linkedin"></i>
+                  </a>
+
+                  <a href="https://github.com/GuilhermeAraujoc" class="footer-link" id="github">
+                      <i class="fa-brands fa-github"></i>
+                  </a>
+
+                  <a href="#" class="footer-link" id="whatsapp">
+                      <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+              </div>
+          </div>
+          
+          <ul class="footer-list">
+              <li>
+                  <h3>Repositório</h3>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Hospedagem</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">GitHub</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Arquivos</a>
+              </li>
+          </ul>
+
+          <ul class="footer-list">
+              <li>
+                  <h3>Mais Projetos</h3>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Portifólio</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Sistema de Cadastro</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Calculadora</a>
+              </li>
+          </ul>
+
+          <div id="footer_subscribe">
+              <h3>Contato</h3>
+              <p>developer.guilhermearaujo@gmail.com</p>
+
+              <div id="input_group">
+                  <input type="email" id="email">
+                  <button>
+                      <i class="fa-regular fa-envelope"></i>
+                  </button>
+              </div>
+          </div>
+      </div>
+      <div id="footer_copyright">
+          Desenvolvido por <a href="https://www.instagram.com/guiiislz/"> Guilherme Araújo  </a>
+          <p><br>developer.guilhermearaujo@gmail.com</p>
+      </div>
+  </footer>
+  </body>
+</html>
